@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Image Filters</title>
+    <link rel="stylesheet" href="Demo.css">
+</head>
+
+<body>
+    <div id="outer-container">
+        <h1>Filter Factory</h1>
+        <main>
+            <canvas id="can1"></canvas>
+            <div id="file-upload-container">
+                <h2>Load Your Image:</h2>
+                <input type="file" name="img-file" id="img-file" onchange="upload()" />
+            </div>
+            <h3>Pick a Filter:</h3>
+            <div class="btn-contianer">
+
+                <input type="button" value="Grayscale" id="gray" onclick="doGray()" />
+                <input type="button" value="Blue Filter" id="blue" onclick="doBlue()" />
+                <input type="button" value="Green Filter" id="green" onclick="doGreen()" />
+                <input type="button" value="Red Filter" id="red" onclick="doRed()" />
+                <input type="button" value="Brighten Image" id="brighter" onclick="doBright()" />
+                <input type="button" value="Darken Image" id="darker" onclick="doDark()" />
+                <input type="button" value="Rainbow Filter" id="rainbow" onclick="doRainbow()" />
+                <input type="button" value="Blur Filter" id="blur" onclick="doBlur()" />
+            </div>
+            <input type="button" value="Reset" id="reset" onclick="doReset()" />
+        </main>
+    </div>
+    <script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js"></script>
+    <script src="Demo.js"></script>
+</body>
+
+</html>

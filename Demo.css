@@ -1,0 +1,201 @@
+body {
+    background: linear-gradient(45deg, #c25e40, #3ce756, #23a6d5, #23d5ab, #d3cd16, #e1af0b, #8f18df, #cc116f);
+    background-size: 400% 400%;
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    background-color: rgb(248, 242, 233);
+}
+
+#outer-container {
+    width: 100%;
+    height: 100vh;
+    color: #030975;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+#can1 {
+    border: 1px solid #000;
+    margin-bottom: 35px;
+    background-color: #fff;
+}
+
+#img-file {
+    margin: 15px 0;
+    color: #000;
+}
+
+input[type="file"]::file-selector-button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: 0.2s ease all;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.2s ease all;
+}
+
+.btn-contianer {
+    min-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="button"] {
+    width: 120px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease all;
+}
+
+#gray {
+    background-color: #555;
+    color: #fff;
+}
+
+#gray:hover {
+    background-color: #fff;
+    color: #555;
+}
+
+#blue {
+    background-color: #0067a5;
+    color: #fff;
+}
+
+#blue:hover {
+    background-color: #fff;
+    color: #0067a5;
+}
+
+#green {
+    background-color: #028a0f;
+    color: #fff;
+}
+
+#green:hover {
+    background-color: #fff;
+    color: #028a0f;
+}
+
+#red {
+    background-color: #d21404;
+    color: #fff;
+}
+
+#red:hover {
+    background-color: #fff;
+    color: #d21404;
+}
+
+#brighter {
+    background-color: #fff;
+    color: #000;
+}
+
+#brighter:hover {
+    opacity: 0.8;
+}
+
+#darker {
+    background-color: #222;
+    color: #fff;
+}
+
+#darker:hover {
+    background-color: #000;
+}
+
+#rainbow {
+    background-color: #4b0082;
+    color: #fff;
+}
+
+#rainbow:hover {
+    background-color: #9400d3;
+}
+
+#blur {
+    background-color: #fff;
+    color: #000;
+}
+
+#blur:hover {
+    background-color: #30a9a1;
+    color: #fff;
+}
+
+#reset {
+    width: 150px;
+    margin-top: 30px;
+    background-color: #000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+input[type="button"]:hover {
+    transition: 0.2s ease all;
+    font-weight: 700;
+}
+
+#reset:hover {
+    background-color: #fff;
+    color: #000;
+}
